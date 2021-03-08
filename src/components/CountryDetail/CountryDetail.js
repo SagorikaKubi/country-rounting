@@ -13,7 +13,7 @@ const CountryDetail = () => {
                 setCountry(data)
                 // console.log(data)
             })
-    }, [])
+    }, [name])
     const flagStyle = {
         height: "150px",
         width: "150px"
